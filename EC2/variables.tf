@@ -1,13 +1,13 @@
 variable "region" {
   description = "AWS region to create resources in"
   type        = string
-  default     = "us-east-2"
+  default     = "us-east-1"
 }
 
 variable "instance_type" {
   description = "EC2 instance type"
   type        = string
-  default     = "t3.large"
+  default     = "t2.micro"
 }
 
 variable "key_name" {
